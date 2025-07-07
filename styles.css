@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
     padding: 0;
@@ -8,5 +8,6 @@
 }
 
 body {
-    
+    background-image: url('https://www.freepik.com/premium-photo/digital-camera-dark-background_260113497.htm#fromView=search&page=1&position=17&uuid=5fe2861f-95cb-47d6-b93d-afa0ecae8612&query=camera+in+black+bg');
+    /* background-color: 000; */
 }
