@@ -8,6 +8,7 @@
 }
 
 body {
-    background-image: url('https://www.freepik.com/premium-photo/digital-camera-dark-background_260113497.htm#fromView=search&page=1&position=17&uuid=5fe2861f-95cb-47d6-b93d-afa0ecae8612&query=camera+in+black+bg');
-    /* background-color: 000; */
+    background-image: url('images/image.png');    
+    background-size: cover;
+    
 }
