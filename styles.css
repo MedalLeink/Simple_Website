@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
 }
 
 body {
@@ -50,3 +51,21 @@ body {
     background-color: fff;
     color: #000;
 }
+
+.hero_section .heading {
+    /* font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.hero_section .heading h1{
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    text-align: center;
+}
+
