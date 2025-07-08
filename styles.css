@@ -8,7 +8,35 @@
 }
 
 body {
-    background-image: url('images/image.png');    
-    background-size: cover;
-    
+    background: url('images/image.png') center/cover;
+}
+
+.header {
+    background-color: rgb(45, 44, 44);
+    /* position: relative; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo a{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav_links ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.nav_links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
 }
