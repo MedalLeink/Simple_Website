@@ -52,11 +52,9 @@ body {
     color: #000;
 }
 
-.hero_section .heading {
-    /* font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
+.hero_section {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero_section .heading h1{
@@ -69,15 +67,14 @@ body {
     text-align: center;
 }
 
-.hero_section {
-    margin: 0 auto;
-}
-
 .hero_section span input{
     padding: 10px 20px;
     letter-spacing: 0.5px;
     font-size: 16px;
     border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
 }
 
 .hero_section span input.line{
@@ -85,4 +82,8 @@ body {
     background-color: transparent;
     color: #fff;
     margin-right: 20px;
+}
+
+.hero_section span input.full{
+    border: 1px solid #fff;
 }
