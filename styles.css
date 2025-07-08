@@ -63,12 +63,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 180px;
+    margin-top: 200px;
     text-align: center;
 }
 
 .hero_section span input{
-    padding: 10px 20px;
+    padding: 8px 20px;
     letter-spacing: 0.5px;
     font-size: 16px;
     border-radius: 4px;
@@ -77,13 +77,25 @@ body {
     margin-top: 30px;
 }
 
-.hero_section span input.line{
+.hero_section span input.line {
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff;
     margin-right: 20px;
 }
 
+.hero_section span input.line:hover {
+    background-color: rgb(155, 152, 152);
+    color: #000;
+    transition: all 0.3s linear;
+}
+
 .hero_section span input.full{
     border: 1px solid #fff;
+}
+
+.hero_section span input.full:hover{
+    background-color: rgb(155, 152, 152);
+    color: #000;
+    transition: all 0.3s linear;
 }
